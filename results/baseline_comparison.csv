@@ -1,0 +1,10 @@
+Model,Mean Acc (%),Std Acc (%),95% CI (±%),Mean AUC (%)
+Proposed (Bio-STG-MetaNet),99.83,0.35,0.22,99.99
+VanillaCNN,99.75,0.33,0.29,99.99
+ShallowFBCSPNet,99.42,0.33,0.29,99.95
+EEGNet,99.25,0.49,0.43,99.96
+EEGConformer,99.25,0.55,0.48,99.78
+CNNLSTM_Hybrid,99.25,0.31,0.27,99.94
+DeepConvNet,99.17,0.7,0.61,99.82
+VanillaBiLSTM,97.0,0.49,0.43,99.66
+PCA_ANN,80.08,0.93,0.81,87.0

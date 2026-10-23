@@ -1,0 +1,9 @@
+Comparison,t-statistic,p-value,Significant (p<0.05),Cohen's d,Effect Size
+Proposed vs VanillaCNN,0.4286,0.6784,No,0.2357,Small
+Proposed vs ShallowFBCSPNet,2.7603,0.0221,Yes,1.2062,Large
+Proposed vs EEGNet,3.1009,0.0126,Yes,1.3551,Large
+Proposed vs EEGConformer,2.9482,0.0163,Yes,1.2884,Large
+Proposed vs CNNLSTM_Hybrid,3.7371,0.0046,Yes,1.6331,Large
+Proposed vs DeepConvNet,2.5832,0.0295,Yes,1.1287,Large
+Proposed vs VanillaBiLSTM,13.9482,0.0001,Yes,6.0951,Large
+Proposed vs PCA_ANN,45.6219,0.0001,Yes,19.9328,Large

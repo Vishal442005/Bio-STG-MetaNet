@@ -1,0 +1,20 @@
+{
+  "title": "Bio-STG-MetaNet: Bio-Spatio-Temporal Graph and Gated Meta-Classification Architecture for EEG Alcoholism Detection",
+  "description": "Official codebase for Bio-STG-MetaNet, an end-to-end neuro-geometric deep learning architecture incorporating 3D spherical electrode distance priors (BioDGATLayer), tri-band frequency decomposition, spatio-temporal residual convolutions, bidirectional recurrence with multi-head attention, and gated meta-classification for Alcohol Use Disorder (AUD) detection from 64-channel scalp EEG.",
+  "creators": [
+    {
+      "name": "Vishal",
+      "affiliation": "Department of Computer Science & Engineering"
+    }
+  ],
+  "keywords": [
+    "Electroencephalogram (EEG)",
+    "Alcohol Use Disorder (AUD)",
+    "Graph Attention Networks",
+    "3D Electrode Geometry",
+    "Spatio-Temporal Neural Networks",
+    "Biomedical Signal Processing"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}

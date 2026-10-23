@@ -1,0 +1,103 @@
+# ==============================================================================
+# STRICT EXCLUSIONS: RESEARCH PAPERS, MANUSCRIPTS, AND BUILD SCRIPTS
+# (Per user directive: do not push paper, tex, docx, pdf, or paper_builder)
+# ==============================================================================
+*.pdf
+*.docx
+*.doc
+*.tex
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+format/
+*paper_builder*
+*paper_build*
+research_paper*
+Final_Paper_EEG*
+Internship_Report*
+Summary Report*
+97%
+
+# ==============================================================================
+# LARGE RAW DATASETS, ARCHIVES, AND PROCESSED ARRAYS (>50MB / Non-code)
+# ==============================================================================
+Kaggle/
+UCI_FULL_PROCESSED/
+SMNI_CMI_TRAIN/
+SMNI_CMI_TEST/
+eeg_full/
+archive_v1_run/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.npy
+*.npz
+
+# ==============================================================================
+# DEEP LEARNING MODEL CHECKPOINTS AND WEIGHTS (>25MB binary artifacts)
+# ==============================================================================
+models/
+models_subject_independent/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+
+# ==============================================================================
+# INTERMEDIATE RUN DIRECTORIES
+# ==============================================================================
+results_subject_independent/
+results_uci/
+results_uci_full/
+results_uci_test/
+results_phase3/
+results_phase4/
+outputs/
+New modal/
+spfe code/
+
+# ==============================================================================
+# PYTHON CACHE & ENVIRONMENTS
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+.venv_linux/
+venv/
+env/
+ENV/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db

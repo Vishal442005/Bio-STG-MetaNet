@@ -1,0 +1,8 @@
+Configuration,Mean Acc (%),Std Acc (%),Mean AUC (%),# Params
+Full Model (Proposed Bio-STG-MetaNet),99.83,0.35,99.99,"7,197,123"
+w/o Bio-DGAT (No Topo Graph),99.33,0.47,99.85,"6,162,818"
+w/o Spatio-Temporal Attention,98.83,0.63,99.91,"5,076,546"
+w/o Tri-Band Frequency Segregation,99.0,0.25,99.91,"2,435,682"
+w/o Statistical Features,98.92,1.23,99.92,"6,039,618"
+w/o Residual Connections,98.58,0.76,99.65,"4,129,954"
+Spatial Graph + CNN Only,97.25,0.88,99.42,"3,450,114"
