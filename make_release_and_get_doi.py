@@ -91,9 +91,10 @@ if __name__ == "__main__":
         
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
     
+    tag = sys.argv[2] if len(sys.argv) > 2 else "v1.0.1"
     if mode == "--create" or mode == "--force":
-        print("Creating GitHub release v1.0.0 directly...")
-        rel = create_github_release(token)
+        print(f"Creating GitHub release {tag} directly...")
+        rel = create_github_release(token, tag_name=tag)
     elif mode == "--watch":
         print("Watching for Zenodo webhook to be enabled on GitHub...")
         print("Waiting for you to flip the toggle ON at https://zenodo.org/account/settings/github/ ...")
@@ -101,19 +102,20 @@ if __name__ == "__main__":
             has_hook, hook_url = check_webhooks(token)
             if has_hook:
                 print(f"\n[SUCCESS] Zenodo webhook detected! ({hook_url})")
-                print("Now creating GitHub Release v1.0.0...")
-                rel = create_github_release(token)
+                print(f"Now creating GitHub Release {tag} to trigger Zenodo DOI...")
+                rel = create_github_release(token, tag_name=tag)
                 break
             time.sleep(3)
             print(".", end="", flush=True)
         else:
-            print("\nTimed out waiting for webhook. You can run 'python make_release_and_get_doi.py --watch' anytime.")
+            print("\nTimed out waiting for webhook.")
     else:
         has_hook, hook_url = check_webhooks(token)
         if has_hook:
             print(f"Active webhook found: {hook_url}")
-            print("Creating GitHub release...")
-            create_github_release(token)
+            print(f"Creating GitHub release {tag}...")
+            create_github_release(token, tag_name=tag)
+
         else:
             print("No Zenodo webhook detected yet.")
             print("Please toggle ON 'Vishal442005/Bio-STG-MetaNet' at:")
