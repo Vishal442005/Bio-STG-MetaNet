@@ -17,6 +17,8 @@
 format/
 *paper_builder*
 *paper_build*
+*build*paper*
+*bspc*.py
 research_paper*
 Final_Paper_EEG*
 Internship_Report*
