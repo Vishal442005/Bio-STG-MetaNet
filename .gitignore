@@ -40,6 +40,7 @@ SMNI_CMI_TRAIN/
 SMNI_CMI_TEST/
 eeg_full/
 archive_v1_run/
+archive_legacy_experiments/
 *.tar
 *.tar.gz
 *.zip
