@@ -1,4 +1,6 @@
-Scenario,Accuracy (%),AUC-ROC
-UCI -> Kaggle,98.89,0.999
-Kaggle -> UCI,94.4,0.9895
-Domain Gap,4.48,—
+Model,Training Cohort,Evaluation Cohort,Accuracy (%),Sensitivity (%),Specificity (%),F1-Score (%),ROC-AUC (%)
+BIOSTG,Henri Begleiter (UCI),OpenNeuro ds005907,50.33,99.33,1.33,66.67,51.62
+CONFORMER,Henri Begleiter (UCI),OpenNeuro ds005907,54.0,88.67,19.33,65.84,57.76
+CNNLSTM,Henri Begleiter (UCI),OpenNeuro ds005907,53.0,38.67,67.33,45.14,53.92
+SHALLOW,Henri Begleiter (UCI),OpenNeuro ds005907,57.67,88.0,27.33,67.52,56.52
+EEGNET,Henri Begleiter (UCI),OpenNeuro ds005907,54.67,89.33,20.0,66.34,59.17

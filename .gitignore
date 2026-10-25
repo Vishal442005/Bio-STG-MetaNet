@@ -34,6 +34,8 @@ Summary Report*
 # ==============================================================================
 # LARGE RAW DATASETS, ARCHIVES, AND PROCESSED ARRAYS (>50MB / Non-code)
 # ==============================================================================
+data/
+openneuro_ds005907/
 Kaggle/
 UCI_FULL_PROCESSED/
 SMNI_CMI_TRAIN/
