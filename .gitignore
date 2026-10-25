@@ -5,6 +5,8 @@
 *.pdf
 *.docx
 *.doc
+*.pptx
+*.ppt
 *.tex
 *.aux
 *.log
@@ -19,6 +21,10 @@ format/
 *paper_build*
 *build*paper*
 *bspc*.py
+*powerpoint*
+*render*
+~*
+*.tmp
 research_paper*
 Final_Paper_EEG*
 Internship_Report*
