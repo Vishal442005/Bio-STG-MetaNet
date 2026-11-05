@@ -3,8 +3,9 @@
   "description": "Official codebase for Bio-STG-MetaNet, an end-to-end neuro-geometric deep learning architecture incorporating 3D spherical electrode distance priors (BioDGATLayer), tri-band frequency decomposition, spatio-temporal residual convolutions, bidirectional recurrence with multi-head attention, and gated meta-classification for Alcohol Use Disorder (AUD) detection from 64-channel scalp EEG.",
   "creators": [
     {
-      "name": "Vishal",
-      "affiliation": "Department of Computer Science & Engineering"
+      "name": "Chandel, Vishal",
+      "affiliation": "Department of Electronics and Communication Engineering, Jawaharlal Nehru Government Engineering College (J.N.G.E.C)",
+      "orcid": "0009-0006-0552-8551"
     }
   ],
   "keywords": [
@@ -16,5 +17,6 @@
     "Biomedical Signal Processing"
   ],
   "license": "MIT",
+  "upload_type": "software",
   "access_right": "open"
 }

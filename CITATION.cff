@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or architecture in your research, please cite it as below."
+title: "Bio-STG-MetaNet: Bio-Spatio-Temporal Graph and Gated Meta-Classification Architecture for EEG Alcoholism Detection"
+authors:
+  - family-names: "Chandel"
+    given-names: "Vishal"
+    orcid: "https://orcid.org/0009-0006-0552-8551"
+    affiliation: "Department of Electronics and Communication Engineering, Jawaharlal Nehru Government Engineering College (J.N.G.E.C)"
+version: 1.0.2
+date-released: 2026-11-05
+license: "MIT"
+repository-code: "https://github.com/Vishal442005/Bio-STG-MetaNet"
+url: "https://github.com/Vishal442005/Bio-STG-MetaNet"
+keywords:
+  - "Electroencephalogram (EEG)"
+  - "Alcohol Use Disorder (AUD)"
+  - "Graph Attention Networks"
+  - "3D Electrode Geometry"
+  - "Spatio-Temporal Neural Networks"
+  - "Biomedical Signal Processing"

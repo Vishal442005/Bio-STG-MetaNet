@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23609976.svg)](https://doi.org/10.5281/zenodo.23609976)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0552--8551-A6CE39.svg)](https://orcid.org/0009-0006-0552-8551)
 
 Official research implementation of **Bio-STG-MetaNet**, a biologically grounded deep learning architecture designed for automated detection of Alcohol Use Disorder (AUD) from 64-channel EEG recordings.
 
@@ -118,19 +120,30 @@ python fix_training_curves_and_data.py
 
 ---
 
-## 📜 Zenodo & Citation
+## 📖 Zenodo & Citation
 
 This repository is archived on Zenodo upon each release. If you find this codebase or architecture useful for your research, please cite:
 
-```bibtex
-@software{vishal2026biostgmetanet,
-  author       = {Vishal},
+`ibtex
+@software{chandel2026biostgmetanet,
+  author       = {Chandel, Vishal},
   title        = {{Bio-STG-MetaNet: Bio-Spatio-Temporal Graph and Gated Meta-Classification Architecture for EEG Alcoholism Detection}},
   year         = {2026},
+  version      = {v1.0.2},
   publisher    = {Zenodo},
-  howpublished = {\url{https://github.com/Vishal442005/Bio-STG-MetaNet}}
+  doi          = {10.5281/zenodo.23609976},
+  url          = {https://github.com/Vishal442005/Bio-STG-MetaNet}
 }
-```
+`
+
+---
+
+## 👤 Author
+
+- **Vishal Chandel** (Given name: Vishal, Family name: Chandel)  
+  Department of Electronics and Communication Engineering, Jawaharlal Nehru Government Engineering College (J.N.G.E.C), Sundernagar, Himachal Pradesh 175018, India  
+  ORCID: [0009-0006-0552-8551](https://orcid.org/0009-0006-0552-8551)  
+  E-mail: chandelvishal445@gmail.com
 
 ---
 
